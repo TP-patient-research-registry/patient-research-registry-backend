@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Django
+staticfiles/
+media/
+schema.yml
+celerybeat-schedule*
+
+# Environment / secrets
+.env*
+!.env.example
+deploy/backup.env
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
